@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nitesh Jha portFolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="stylesheet" href="fullpage.min.css"
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="test.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    </head>
+    <body id = "fullpage">
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hello, I am <strong>Nitesh Jha</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="pic3.jpg" alt="" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div  data-aos="zoom-out-up" data-aos-delay="200" class="service">
+                    <h3>Design + Development</h3>
+                    <p>Hey! i have  knowledge of <em>ReactJs, HTML, CSS, JavaScript, Bootstrap.</em><br/>
+                        I can design and develop responsive web pages and application with high user<br />
+                        intractivity. 
+                    </p>
+                </div> <!-- / service -->
+                
+                <div  data-aos="zoom-out-up" data-aos-delay="400" class="service">
+                    <h3>React Js</h3>
+                    <p>I have complete knowledge of React js library. I have knowledge of Props, state,<br />
+                        <br />
+                        React Hooks(useState, useEffect, useContext, useReducer).
+                    </p>
+                </div> <!-- / service -->
+                
+                <div  data-aos="zoom-out-up" data-aos-delay="600" class="service">
+                    <h3>Miscellaneous</h3>
+                    <p>I have done Electronics and Communication Engineering from <em>Ngf College of Engg & Tech</em><br />
+                        I have knowledge of Networking, Electronics Components, Semiconductor Technology.<br />
+                        Concept Of hardware, Processors and Controllers.
+                    </p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section data-aos = "fade-left" data-aos-delay="400" class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Designer & developer</p>
+           
+           <div class="about-me__body">
+               <p>I am an Engg. graduate focused on Electronics and communication. I have done my 10th<br />
+                from CBSE board with 8.8 CGPA and 10+2 from an government school.
+            </p>
+               <p>
+                   I am a First learner and a good listner. I catch things quickly and believe in smart<br />
+                   work and time efficiency
+               </p>
+           </div>
+           
+           <img src="pic2.jpg" alt="" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">My skills</p>
+            
+            <div data-aos="flip-up" class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a data-aos="flip-right" data-aos-delay="150" class="portfolio__item">
+                    <img data-original="download-full.png" src="download.png" alt="React js" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a data-aos="flip-right" data-aos-delay="300"  class="portfolio__item">
+                    <img data-original="html-full.png" src="html.png" alt="HTML" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a data-aos="flip-right" data-aos-delay="450"  class="portfolio__item">
+                    <img data-original="css-full.png" src="css.png" alt="CSS3" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a data-aos="flip-right" data-aos-delay="600"  class="portfolio__item">
+                    <img data-original="js-full.png" src="js.png" alt="JavaScript" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a data-aos="flip-right" data-aos-delay="750"  class="portfolio__item">
+                    <img data-original="bootstrap-full.png" src="bootstrap.png" alt="BOOTSTRAP" class="portfolio__img-boot portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a data-aos="flip-right" data-aos-delay="900"  class="portfolio__item">
+                    <img data-original="rh-full.png" src="rh.png" alt="REACT HOOKS" class="portfolio__img-hooks portfolio__img">
+                </a>
+                <a data-aos="flip-right" data-aos-delay="1050"  class="portfolio__item">
+                    <img data-original="cn-full.jpg" src="cn.jpg" alt="COMPUTER NETWORK" class="portfolio__img-cn portfolio__img">
+                </a>
+                <a data-aos="flip-right" data-aos-delay="1200" class="portfolio__item">
+                    <img data-original="writing-full.png" src="writing.png" alt="CONTENT WRITING" class="portfolio__img-writing portfolio__img">
+                </a>
+            </div>
+        </section>
+        <div class="modal">
+            <img src = "./download.png" alt = "" class="modal-img" />
+            <p class="caption">Caption</p>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="footer">
+        
+            <a href="#" class="footer__link">kn882127@gmail.com</a><br/>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/kumar.nitesh.9250" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/nitesh-jha-a62166160" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/_nitesh_jha" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://drive.google.com/open?id=1J279cYF_q8M7l5FoniXzJtqY1LhzX59R" target="_blank">
+                        <i class="fas fa-file"></i></a>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="portFolio.js"></script>
+        <script src = "App.js"></script>
+        <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous">
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init({
+              duration:1000
+          });
+        </script>
+    </body>
+
+    
+
+  
